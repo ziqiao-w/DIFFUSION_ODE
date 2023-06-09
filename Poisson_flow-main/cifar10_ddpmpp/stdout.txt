@@ -1,0 +1,10 @@
+WARNING - utils.py - 2023-06-07 22:10:51,457 - No checkpoint found at cifar10_ddpmpp\checkpoints-meta\checkpoint.pth. Returned the same state as input
+INFO - xla_bridge.py - 2023-06-07 22:10:51,468 - Remote TPU is not linked into jax; skipping remote TPU.
+INFO - xla_bridge.py - 2023-06-07 22:10:51,468 - Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+INFO - xla_bridge.py - 2023-06-07 22:10:51,469 - Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO - xla_bridge.py - 2023-06-07 22:10:51,469 - Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO - xla_bridge.py - 2023-06-07 22:10:51,481 - Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+WARNING - xla_bridge.py - 2023-06-07 22:10:51,482 - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO - dataset_info.py - 2023-06-07 22:10:51,483 - Load dataset info from C:\Users\ziqiao-w\tensorflow_datasets\cifar10\3.0.2
+WARNING - options.py - 2023-06-07 22:10:51,485 - options.experimental_threading is deprecated. Use options.threading instead.
+WARNING - options.py - 2023-06-07 22:10:51,485 - options.experimental_threading is deprecated. Use options.threading instead.
